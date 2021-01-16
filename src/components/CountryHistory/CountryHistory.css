@@ -1,0 +1,54 @@
+table.table {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+table.table td,
+table.table th {
+	border: 1px solid #aaaaaa;
+	padding: 3px 2px;
+}
+table.table tbody td {
+	font-size: 13px;
+}
+table.table thead {
+	background: #e2ffdd;
+	background: -moz-linear-gradient(top, #e9ffe5 0%, #e5ffe0 66%, #e2ffdd 100%);
+	background: -webkit-linear-gradient(
+		top,
+		#e9ffe5 0%,
+		#e5ffe0 66%,
+		#e2ffdd 100%
+	);
+	background: linear-gradient(to bottom, #e9ffe5 0%, #e5ffe0 66%, #e2ffdd 100%);
+	border-bottom: 2px solid #000000;
+}
+table.table thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #1c314e;
+	text-align: left;
+	border-left: 2px solid #000000;
+}
+table.table thead th:first-child {
+	border-left: none;
+}
+
+table.table tfoot {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #d0e4f5;
+	background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #d0e4f5 100%);
+	background: -webkit-linear-gradient(
+		top,
+		#dcebf7 0%,
+		#d4e6f6 66%,
+		#d0e4f5 100%
+	);
+	background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #d0e4f5 100%);
+	border-top: 2px solid #000000;
+}
+table.table tfoot td {
+	font-size: 14px;
+}

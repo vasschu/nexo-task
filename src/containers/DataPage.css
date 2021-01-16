@@ -1,0 +1,36 @@
+.dataContainer {
+	display: flex;
+}
+
+.countriesList {
+	flex: 0 0 50%;
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px;
+}
+
+#countries {
+	border-width: 1px;
+	border: solid;
+	border-color: grey;
+	padding: 20px;
+	border-radius: 8px;
+	display: inline-table;
+}
+
+.countriesList tr {
+	cursor: pointer;
+}
+
+.countryDetails {
+	display: flex;
+	justify-content: flex-end;
+	text-align: left;
+	border-width: 1px;
+	border: solid;
+	border-color: grey;
+	padding: 20px;
+	border-radius: 8px;
+	display: inline-table;
+	margin: 20px;
+}

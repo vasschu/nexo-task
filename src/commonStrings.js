@@ -1,0 +1,32 @@
+const url = 'https://api.covid19api.com';
+const isoCodeEu = [
+	'BE',
+	'EL',
+	'LT',
+	'PT',
+	'BG',
+	'ES',
+	'LU',
+	'RO',
+	'CZ',
+	'FR',
+	'HU',
+	'SI',
+	'DK',
+	'HR',
+	'MT',
+	'SK',
+	'DE',
+	'IT',
+	'NL',
+	'FI',
+	'EE',
+	'CY',
+	'AT',
+	'SE',
+	'IE',
+	'LV',
+	'PL',
+];
+
+export { url, isoCodeEu };
