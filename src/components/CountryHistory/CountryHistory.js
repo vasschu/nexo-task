@@ -1,8 +1,6 @@
 import './CountryHistory.css';
 
 function CountryHistory({ countryHistory }) {
-	console.log(countryHistory);
-
 	const formatedData = countryHistory
 		? countryHistory.reduce((acc, element) => {
 				const month = element.Date.slice(0, 7);
@@ -24,7 +22,6 @@ function CountryHistory({ countryHistory }) {
 		  }, {})
 		: null;
 	const months = Object.keys(formatedData);
-	console.log(months);
 
 	const dataToDispaly = months
 		? months.map((el) => {

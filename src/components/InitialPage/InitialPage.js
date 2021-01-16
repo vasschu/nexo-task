@@ -5,9 +5,9 @@ function InitialPage() {
 	const history = useHistory();
 
 	return (
-		<div class='start-page'>
+		<div className='start-page'>
 			<h1>Latest covid info</h1>
-			<div class='round-button'>
+			<div className='round-button'>
 				<button
 					className={'round-button-circle'}
 					onClick={() => history.push('/countries/list')}
